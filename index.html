@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO ⏰</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+
+      <header class="app-header">
+        <h1> <span>Organizador de tareas⏰</span></h1>
+        <p>Organiza tu tiempo, cumple tus metas</p>
+      </header>
+
+      <section class="formulario">
+        <div class="campo">
+          <label for="tarea">Tarea</label>
+          <input type="text" id="tarea" placeholder="¿Qué necesitas hacer?" />
+        </div>
+
+        <div class="campo">
+          <label for="fecha">Fecha</label>
+          <input type="date" id="fecha" />
+        </div>
+
+        <div class="campo">
+          <label for="hora">Hora</label>
+          <input type="time" id="hora" />
+        </div>
+
+        <div class="campo">
+          <label for="prioridad">Prioridad</label>
+          <select id="prioridad">
+            <option value="alta"> Alta</option>
+            <option value="media" selected> Media</option>
+            <option value="baja"> Baja</option>
+          </select>
+        </div>
+
+        <button class="btn-agregar" id="btnAgregar">
+          <i class="fa-solid fa-plus"></i>
+          Agregar tarea
+        </button>
+      </section>
+
+      <div class="filtros">
+        <button class="filtro activo" data-filtro="todas">Todas</button>
+        <button class="filtro" data-filtro="alta">Alta</button>
+        <button class="filtro" data-filtro="media">Media</button>
+        <button class="filtro" data-filtro="baja">Baja</button>
+        <button class="filtro" data-filtro="completadas">✅ Completadas</button>
+      </div>
+
+      <div class="contador">
+        <span>Total: <strong id="totalTareas">0</strong></span>
+        <span>Completadas: <strong id="tareasCompletadas">0</strong></span>
+      </div>
+
+      <ul class="lista-tareas" id="listaTareas"></ul>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
