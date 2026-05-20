@@ -81,7 +81,7 @@ git clone https://github.com/Fredeysteven97/organizador-de-tareas.git
 
 - GitHub: [Fredeysteven97](https://github.com/Fredeysteven97)
 - LinkedIn: [Steven Castañeda](https://www.linkedin.com/in/steven-casta%C3%B1eda-9364052b3/)
-- Correo: fredeystevn97@gmail.com
+- Correo: fredeysteven97@gmail.com
 
 ---
 
