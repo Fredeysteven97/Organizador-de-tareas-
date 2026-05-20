@@ -293,6 +293,17 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   .btn-agregar {
     grid-column: 1;
   }
+
+  .tarea {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .tarea-acciones {
+    width: 100%;
+    justify-content: flex-end;
+  }
 }
 
 .notificacion-visual {
