@@ -55,7 +55,7 @@ Aplicación web de gestión de tareas con sistema de alarmas, prioridades y noti
 
 No requiere instalación. Accede directamente desde el navegador:
 
-[https://fredeysteven97.github.io/organizador-de-tareas](https://fredeysteven97.github.io/organizador-de-tareas)
+[https://fredeysteven97.github.io/organizador-de-tareas](https://fredeysteven97.github.io/OrganizadorDeTareas/)
 
 O clona el repositorio:
 
